@@ -1,0 +1,25 @@
+.navbar 
+{
+    background-color: rgba(216, 215, 215, 0.295);
+}
+.navbar-brand,.nav-link,.nav-item
+{
+    color: rgb(33, 37, 41) !important;
+    text-decoration: none !important;
+}
+.nav-link
+{
+    text-transform: capitalize;
+    color:rgb(34, 45, 68) !important;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+/* .navbar-toggler-icon
+{
+    background-color: white !important;;
+}
+.nav-link:hover,.nav-link:active
+{
+    color:blue !important;
+} */

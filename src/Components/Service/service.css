@@ -1,0 +1,84 @@
+.mainservice
+{
+    padding:0;
+    margin: 0;
+}
+.ser_header
+{
+    height:50vh;
+    width:100%;
+    padding: 0px !important;
+    position: relative;
+}
+.ser_header img{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    object-fit: cover;
+    filter: brightness(70%)
+}
+.ser_heading
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:20%;
+    left:15px;
+    font-size: 5vw
+;
+}
+.ser_header .title
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:60%;
+    font-size: 3vw;
+    left:15px;
+}
+.servicelist
+{
+    height: 100vh;
+}
+.servicelistrow
+{
+    height: auto;
+    width:90%;
+    margin:100px auto;
+   
+    
+}
+.sercicelistcol
+{
+    height: 100%;
+}
+.img2
+{
+    width:100%;
+    height:100%;
+}
+.industiescont
+{
+    height: auto;
+}
+.indusrow
+{
+    width:90%;
+    margin:50px auto;   
+}
+.induscol 
+{
+    height:400px;
+}
+.induscol img{
+    width: 100%;
+    height: 100%;
+}
+.incol-2
+{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+.h1{
+    text-align: start !important;
+}

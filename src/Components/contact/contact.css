@@ -1,0 +1,54 @@
+.contact_header
+{
+    height:50vh;
+    width:100%;
+    padding: 0px !important;
+    position: relative;
+}
+.contact_header img{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    object-fit: cover;
+    filter: brightness(70%)
+}
+.contact_heading
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:20%;
+    left:15px;
+    font-size: 5vw;
+}
+.contact_header .title
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:60%;
+    font-size: 3vw;
+    left:15px;
+}
+.contact_cf
+{
+    height:auto;
+}
+.contact_container
+{
+    margin-top: 80px;
+    width:90%;
+}
+.contact_row1c1
+{
+    margin-bottom: 50px;
+}
+.contact_row1c1 .col-md-3
+{
+    border:1px solid rgb(172, 169, 169);
+    border-radius: 15px;
+    width:350px;
+}
+.form
+{
+    width: 50%;
+    padding-bottom: 50px;
+}

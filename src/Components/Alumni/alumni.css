@@ -1,0 +1,50 @@
+.alumni_header
+{
+    height:50vh;
+    width:100%;
+    padding: 0px !important;
+    position: relative;
+}
+.alumni_header img{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    object-fit: cover;
+    filter: brightness(70%)
+}
+.alumni_heading
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:20%;
+    left:15px;
+    font-size: 5vw;
+}
+.alumni_header .title
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:60%;
+    font-size: 3vw;
+    left:15px;
+}
+.alumnimember_row
+{
+    margin:100px 10px;
+}
+.alumnimember_col
+{
+    width:390px;
+}
+.card-item
+{
+    border:1px solid rgb(184, 182, 182);
+    background-color: rgb(255, 250, 250);
+    height:420px;
+    border-radius: 15px;
+}
+.card-item img
+{
+    width:100%;
+    border-radius: 15px;
+}

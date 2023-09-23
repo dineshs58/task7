@@ -1,0 +1,65 @@
+.carousel{
+    position: relative;
+    text-align: start !important;
+}
+.carousel-item
+{
+    height: 98vh;
+}
+.carousel-item img
+{
+    filter: brightness(89%);
+    background-size: 100% 100%;
+}
+.carousel-caption
+{
+    color:gray;
+    top: 20% !important;
+    left: 10% !important;
+}
+.carousel-caption h1{
+    color:rgb(42,56,85);
+    font-size: 5vw; 
+    font-weight: 800;
+    text-align: left !important;
+    
+
+}   
+.carousel-caption p{
+    color:rgb(42,56,85);
+    font-size: 2.4vw;
+    font-weight: 400;
+    text-align: left !important;
+}
+.carousel-caption div .btn{
+    max-width: 230px;
+}
+.cb1
+{
+    background-color: rgb(42,56,85);
+    
+}
+.cb2:hover{
+    opacity: 0.9;
+    background-color: rgb(117, 255, 105);
+}
+.carousel-caption div
+{
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly ;
+}
+@media screen and (max-width: 600px) {
+    .carousel-caption
+    {
+        color:gray;
+        top: 5% !important;
+        left: 10% !important;
+    }
+    .carousel-caption div
+    {
+        width: 80%;
+        display: flex;
+        justify-content:space-evenly ;
+    }
+}
